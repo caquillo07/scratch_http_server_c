@@ -18,3 +18,8 @@ make run
 clang -o main main.c
 ./main
 ```
+
+on a separate terminal, can check with cURL
+```shell
+curl localhost:8080/index.html -v
+```
